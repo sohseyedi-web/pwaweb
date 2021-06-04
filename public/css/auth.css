@@ -1,0 +1,134 @@
+
+@import url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Shabnam','Segoe UI', Tahoma, sans-serif;
+    list-style-type: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+    height: 100vh;
+}
+.bars{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    background: #0bda51;
+    color: #eee;
+    padding: 10px;
+    border-radius: 50%;
+}
+.bars .fa-home{
+    color: #eee;
+}
+.login-form , .signup-form , .forget-form{
+    width: 380px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 50px 35px 35px 35px;
+    background-color: #ecf0f3;
+    box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+    animation-duration: .6s;
+    animation-name: durationForm;
+}
+.forget-form{
+    height: 350px;
+}
+.forget-form .title{
+    margin-bottom: 10px;
+}
+.forget-form .icon{
+    position: relative;
+    top: -23px;
+    right: -15px;
+    background-color: #0bda51;
+    border: none;
+    width: 30px;
+    height:30px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #eee;
+}
+.fa-times{
+    font-size: 1.2rem;
+}
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 24px;
+}
+.forms{
+    width: 100%;
+    padding: 60px 5px 5px 5px;
+}
+.input-form{
+    padding: 18px 10px 18px 1px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    direction: rtl;
+}
+
+.username , .password{
+    margin-bottom: 30px;
+	border-radius: 30px;
+	box-shadow:inset 5px 5px 8px #cbced1, inset -5px -5px 8px #ffffff
+}
+.handleSubmit{
+    outline: none;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 20px;
+    margin-top: 25px;
+    color: #fff;
+	text-align: center;
+	/* background: #fc5130; */
+    background-color: #0bda51;
+    transition: all .5s ease;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+}
+.handleSubmit:hover , .icon:hover{
+    background-color: #000;
+}
+.handleSubmit:active {
+	background: #ff843c;
+}
+.link {
+	padding: 20px;
+	text-align: center;
+}
+.link a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 15px;
+}
+
+
+@keyframes durationForm {
+    0%{
+        transform: scale(1,1);
+      }
+      50%{
+        transform: scale(1.1,1.1);
+      }
+      100%{
+        transform: scale(1,1);
+      }
+}
+
